@@ -27,9 +27,41 @@
 </head>
 
 <body class="font-sora">
-    <h3 class="text-3xl">Welcome to Fruits Hub Website</h3>
-    <button class="btn btn-secondary"> <i class="fa-brands fa-facebook"></i>Secondary</button>
-
+    <div class="navbar bg-base-100 shadow-sm">
+        <div class="navbar-start">
+            <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                </div>
+                <ul tabindex="-1"
+                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                    <li><a>Product</a></li>
+                    <li><a>Services</a></li>
+                    <li><a>Contact us</a></li>
+                </ul>
+            </div>
+            <a href=""><img src="c2-assets/logo-header.png" alt=""></a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+                <li><a>Product</a></li>
+                <li>
+                    <a>Services</a>
+                </li>
+                <li><a>Contact us</a></li>
+            </ul>
+        </div>
+        <div class="navbar-end space-x-4">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <button class=" border-[#179800] border-1 font-normal text-xl rounded-lg px-8 py-2 ">Login</button>
+            <button class="font-normal text-xl bg-[#179800] rounded-lg px-8 py-2">Register</button>
+        </div>
+    </div>
 </body>
 
 </html>
