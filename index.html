@@ -187,8 +187,8 @@
     </section>
 
     <!-- Popular Products Section -->
-    <section class="mt-24 bg-[#EFEBE3] p-36">
-        <div class="max-w-7xl mx-auto px-4">
+    <section class="mt-24 bg-[#EFEBE3]">
+        <div class="md:max-w-7xl md:mx-auto px-4">
             <h3 class="text-3xl font-semibold text-[#179800] mb-8">Popular Products</h3>
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
                 <!-- Popular Products Banner -->
@@ -196,8 +196,26 @@
                     box 1
                 </div>
                 <!-- popular products card -->
-                <div class="bg-pink-500 lg:col-span-2 lg:row-span-1">
-                    box 2
+                <div class=" lg:col-span-2 lg:row-span-1">
+                    <div class="grid grid-cols-3">
+                        <!-- card 1 -->
+                        <div class="flex bg-white rounded-lg py-4 px-8 gap-4">
+                            <div class="bg-[#EFEBE3] rounded-xl ">
+                                <img src="c2-assets/onion.png" alt="">
+                            </div>
+                            <div>
+                                <div class="flex space-x-1">
+                                    <div class="rating flex">
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                        aria-label="1 star" checked="checked" />
+                                </div>
+                                <p class="font-normal text-lg">4.5</p>
+                                </div>
+                                <h3 class="font-medium text-xl">Onion 1 KG</h3>
+                                <p class="font-medium text-lg">$39.99</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
