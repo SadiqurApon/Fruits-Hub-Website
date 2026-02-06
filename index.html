@@ -147,7 +147,7 @@
         </div>
     </section>
     <!-- Spacial Section  -->
-    <section class="px-4/12 mx-auto px-4 md:px-36 md:pb-48">
+    <section class="px-4/12 mx-auto px-4 md:px-36 md:mb-48 mb-10">
         <p class="font-semibold text-3xl text-[#179800]">Why Our Fruits <span class="text-black">Are Special</span></p>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-4">
             <!-- card 1 -->
@@ -187,7 +187,7 @@
     </section>
 
     <!-- Popular Products Section -->
-    <section class="mt-24 bg-[#EFEBE3] mb-36">
+    <section class="mt-24 bg-[#EFEBE3] md:mb-36 mb-10">
         <div class="md:max-w-7xl md:mx-auto px-4">
             <h3 class="text-3xl font-semibold text-[#179800] pt-24 mb-8">Popular Products</h3>
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
@@ -363,26 +363,53 @@
         </div>
     </section>
     <!-- Arrival offers section -->
-    <section class="md:max-w-7xl md:mx-auto px-4">
+    <section class="md:max-w-7xl md:mx-auto px-4 md:mb-40 mb-10">
         <h3 class="text-3xl font-semibold text-[#179800] pt-24 mb-8">Arrival & Offers</h3>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
             <!-- first image -->
             <div class="flex justify-between md:col-span-2 rounded-3xl bg-[#115414] px-6 py-10 items-center">
-                <div>
-                    <img src="c2-assets/dawat-logo.png" alt="">
-                    <p><i>The</i> FINEST</p>
-                    <input type="text" class="px-10 py-2 bg-[#63B76D] border-none rounded-xl" placeholder="Cook Exotic Dishes">
-                    <h2>UP to 20% OFF</h2>
-                </div>    
+                <div class="space-y-4 md:pl-4">
+                    <img src="c2-assets/dawat-logo.png" class="pl-1" alt="">
+                    <input type="text" class="md:px-8 py-2 bg-[#63B76D] border-none rounded-xl"
+                        placeholder="Cook Exotic Dishes">
+                    <h2 class="font-bold text-4xl text-white"><span class="font-normal text-4xl">UP to</span> 20% OFF
+                    </h2>
+                </div>
                 <div>
                     <img src="c2-assets/dawat-mock-up.png" alt="">
                 </div>
             </div>
             <!-- second image -->
-            <div class="bg-pink-500 h-14">
-                box 2
+            <div class="flex justify-between col-span-1 rounded-3xl bg-[#102861] md:px-6 md:py-10 items-center">
+                <div class="space-y-4 ">
+                    <img src="c2-assets/india-gate-logo.png" alt="">
+                    <input type="text" class="py-4 px-6 bg-[#2A4D97] border-none rounded-xl"
+                        placeholder="World’s No.1 Rice">
+                    <h2 class="font-bold text-4xl text-white"><span class="font-normal text-4xl">UP to</span> 40% OFF
+                    </h2>
+                </div>
+                <div>
+                    <img src="c2-assets/india-gate-mock-up.png" alt="">
+                </div>
             </div>
         </div>
+    </section>
+    <!-- Grocary news section -->
+    <section class=" md:max-w-7xl md:mx-auto px-4 md:mb-40 mb-10 ">
+    <div class="hero bg-[#EFEBE3] md:py-12 md:px-24 rounded-3xl">
+        <div class="hero-content flex-col lg:flex-row">
+            <img src="c2-assets/vegetable-busket.png"
+                class="max-w-sm rounded-lg" />
+            <div class="space-y-4 text-center">
+                <h1 class="text-4xl font-semibold ">Get Grocery News!</h1>
+                <p class="text-lg font-normal">
+                    Exclusive training tips, ticks, product deals and more.
+                </p>
+                <input type="text" placeholder="Your Email... " class="bg-white border-none rounded-sm font-normal text-sm py-4 pl-1" >
+                <p><button class="btn bg-[#179800] rounded-xl font-normal text-xl text-white">Subscribe</button></p>
+            </div>
+        </div>
+    </div>
     </section>
 
 </body>
